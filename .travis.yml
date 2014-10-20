@@ -2,7 +2,9 @@ language: python
 python: 
   - 3.3
 install: 
-  - pip install -r requirements.txt --use-mirrors
+  - sudo apt-get install python3-setuptools
+  - sudo easy_install3 pip
+  - sudo pip install -r requirements.txt --use-mirrors
 script:
   - cd lib/test
   - konira
