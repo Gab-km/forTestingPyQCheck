@@ -3,7 +3,6 @@ python:
   - 3.3
 install: 
   - pip install -r requirements.txt --use-mirrors
-  - easy_install konira==0.3.2
 script:
   - cd lib/test
   - konira
