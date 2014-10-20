@@ -1,2 +1,2 @@
 clint==0.3.1
-konira==0.3.2
+setuptools==7.0
